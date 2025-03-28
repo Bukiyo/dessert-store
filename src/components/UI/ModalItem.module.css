@@ -1,0 +1,29 @@
+.imgCard {
+  width: 4rem;
+  margin-right: 1.5rem;
+}
+.orderConfirmedDiv {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #d4cbc9;
+  padding-bottom: 1.5rem;
+}
+.cartItemName {
+  color: hsl(14deg 83.98% 17.98%);
+}
+.quantityStyle {
+  color: hsl(14, 86%, 42%);
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.priceStyle {
+  color: #ac8b81;
+  margin-right: 0.5rem;
+}
+.totalPriceStyle {
+  color: hsl(14deg 83.98% 17.98%);
+  font-weight: 700;
+  align-self: center;
+  position: absolute;
+  right: 0rem;
+}

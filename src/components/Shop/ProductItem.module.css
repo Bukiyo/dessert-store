@@ -1,0 +1,190 @@
+.card {
+  /* width: 17rem; */
+  transition: transform 0.3s; /* add a smooth transition effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* zoom in by 5% when hovered */
+}
+.activeCard {
+  border: 2px solid rgb(199, 58, 15);
+}
+.actions {
+  position: relative;
+  top: 13rem;
+  background-color: white;
+  border-radius: 30px;
+  border: 1.6px solid hsl(7, 20%, 60%);
+  padding: 0.65rem 0.2rem;
+  width: 12rem;
+  color: hsl(14deg 83.98% 17.98%);
+  font-weight: 700;
+}
+.actions:hover {
+  background-color: white;
+  color: #ce542e;
+  border: 1.6px solid #ce542e;
+}
+.productName {
+  color: hsl(14deg 83.98% 17.98%);
+  font-weight: 700;
+}
+/*as a button*/
+/* .actionsClicked { 
+  position: relative;
+  top: 13rem;
+  background-color: #ce542e;
+  border-radius: 30px;
+  border: 1.6px solid hsl(7deg 55.47% 50.84%);
+  padding: 0.75rem 1.8rem;
+  width: 12rem;
+  color: white;
+  font-weight: 700;
+} */
+
+/*as a div*/
+.actionsClicked { 
+  position: relative;
+  top: 13rem;
+  left: 1rem;
+  background-color: #ce542e;
+  border-radius: 30px;
+  border: 1.6px solid hsl(7deg 55.47% 50.84%);
+  padding: 0.65rem 0.2rem;
+  width: 12rem;
+  color: white;
+  font-weight: 700;
+}
+.addRemoveBtn {
+  border-radius: 50px;
+  border: 1.6px solid white;
+  background-color: transparent;
+  color: white;
+  width: 23px;
+  height: 23px;
+  display: flex;
+  position: relative;
+}
+.addRemoveBtn:hover {
+  background-color: white;
+  color: hsl(7deg 55.47% 50.84%);
+}
+.removeBtnSpan {
+  position: absolute;
+  /* right: 7.5rem; */
+  left: 1rem;
+}
+.removeBtnInnerSpan {
+  align-self: center;
+}
+.addBtnSpan {
+  position: absolute;
+  /* left: 7.5rem; */
+  right: 1rem;
+}
+.addBtnInnerSpan {
+  align-self: center;
+  position: absolute;
+  right: 5px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .cardImgOverlay {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .actions {
+    position: relative;
+    top: 3rem;
+  }
+
+  .actionsClicked { 
+    position: relative;
+    top: 3rem;
+    left: 0rem;
+  }
+
+  .productListItem {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+  .cardImgOverlay {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .actions {
+    position: relative;
+    top: 3rem;
+    /* padding: 1rem 1.8rem; */
+  }
+
+  .actionsClicked { 
+    position: relative;
+    top: 3rem;
+    left: 0rem;
+    /* padding: 1rem 1.8rem; */
+  }
+
+  .productListItem {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .productHeading {
+      font-size: 2.5rem;
+  }
+
+  .cardImgOverlay {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .actions {
+    position: relative;
+    top: 3rem;
+    /* padding: 1rem 1.8rem; */
+  }
+
+  .actionsClicked { 
+    position: relative;
+    top: 3rem;
+    left: 0rem;
+    /* padding: 1rem 1.8rem; */
+  }
+
+  .productListItem {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .productListItem {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .productListItem {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+  }
+}
