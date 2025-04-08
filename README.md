@@ -13,6 +13,7 @@
 - 🧁 Add to cart, remove items, and clear cart
 - 🎨 Clean, responsive interface
 - ⚛️ Built with React components
+- 🌈 Styled using MDBootstrap
 - 🧪 Easy to expand with backend/API integration
 
 ---
@@ -23,11 +24,12 @@
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![MDBootstrap](https://img.shields.io/badge/-MDBootstrap-0275d8?logo=bootstrap&logoColor=white&style=flat)
 
 ---
 
 ## 📦 Getting Started
-git clone https://github.com/YOUR-USERNAME/dessert-store.git
-cd dessert-store
-npm install
-npm start
+- git clone https://github.com/YOUR-USERNAME/dessert-store.git
+- cd dessert-store
+- npm install
+- npm start
