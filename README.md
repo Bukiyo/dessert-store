@@ -29,7 +29,7 @@
 ---
 
 ## 📦 Getting Started
-- git clone https://github.com/YOUR-USERNAME/dessert-store.git
+- git clone https://github.com/Bukiyo/dessert-store.git
 - cd dessert-store
 - npm install
 - npm start
