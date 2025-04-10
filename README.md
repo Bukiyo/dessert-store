@@ -28,6 +28,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+🔗 [Click here to view the live project](https://dessert-store-bukyo.vercel.app/)  
+
+---
+
 ## 📦 Getting Started
 - git clone https://github.com/Bukiyo/dessert-store.git
 - cd dessert-store
