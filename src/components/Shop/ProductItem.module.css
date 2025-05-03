@@ -63,7 +63,8 @@
   width: 23px;
   height: 23px;
   display: flex;
-  position: relative;
+  justify-content: center;
+  /* position: relative; */
 }
 .addRemoveBtn:hover {
   background-color: white;
@@ -84,7 +85,7 @@
 }
 .addBtnInnerSpan {
   align-self: center;
-  position: absolute;
+  /* position: absolute; */
   right: 5px;
 }
 
@@ -94,7 +95,7 @@
   .cardImgOverlay {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
   }
 
   .actions {
@@ -119,7 +120,7 @@
   .cardImgOverlay {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
   }
 
   .actions {
@@ -150,7 +151,7 @@
   .cardImgOverlay {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
   }
 
   .actions {
