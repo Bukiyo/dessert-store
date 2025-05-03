@@ -45,8 +45,8 @@
     font-weight: 700;
 }
 .svg {
-  display: inline-block !important;    /* make sure it’s not being hidden */
-  width: 16px !important; /* bump up to something easily tappable on mobile */
-  height: 16px !important;
-  color: #CAAFA7 !important; /* drives the fill via currentColor */
+  display: inline-block;    /* make sure it’s not being hidden */
+  width: 16px; /* bump up to something easily tappable on mobile */
+  height: 16px;
+  color: #CAAFA7; /* drives the fill via currentColor */
 }
