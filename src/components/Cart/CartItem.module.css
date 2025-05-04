@@ -50,3 +50,7 @@
   height: 16px;
   color: #CAAFA7; /* drives the fill via currentColor */
 }
+
+.svg path {
+    fill: #CAAFA7 !important;
+  }

@@ -4,7 +4,7 @@
 } */
 .orderConfirmedSection {
   background-color: hsl(20, 50%, 98%);
-  width: 29rem;
+  /* width: 29rem; */
   padding: 1.5rem;
 }
 .orderConfirmedSection ul {
